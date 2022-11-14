@@ -1,0 +1,31 @@
+body{
+    background-color: #1b1b32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+
+h1{
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.aplicacion-tareas{
+    display: flex;
+    flex-wrap: wrap;/*si un elemento no entra en una fila va a pasar a la siguiente, los divs no reducen su tamaño*/
+    justify-content: center;
+    align-items: center;
+}
+
+.tareas-lista-principal{
+    width: 600px;
+    min-height: 500px;
+    background-color: #e2e2f5;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+}
